@@ -3,12 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jornada Dev IEFP</title>
 </head>
 <body>
+
     <div>
-        <h1>Formulário de Cadastro</h1>
-        
+        <h1>Jornada Dev IEFP</h1>
+        <p>Ficha de acompanhamento acadêmico para estudantes em formação na área de tecnologia</p>
+        <br>
     </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Apelido</label>
+                <input type="text" name="apelido" id="apelido">
+            </div>
+        </fieldset>
+
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label>ID IEFP</label>
+            <input type="text" name="matricula" id="matricula">
+        </div>
+
+        <div>
+            <label>Qual é o seu curso?</label>
+            <label>
+                <input type="radio" name="curso" id="curso1" value="desenvolvimento">Desenvolvimento de Software
+            </label>
+            <label>
+                <input type="radio" name="curso" id="curso2" value="Análise e Desenvolvimento de Sistemas">Análise e Desenvolvimento de Sistemas
+            </label>
+            <label>
+                <input type="radio" name="curso" id="curso3" value="Linguagens de Programação">Linguagens de Programação
+            </label>
+            <label>
+                <input type="radio" name="curso" id="curso4" value="Engeharia de Dados">Engenharia de Dados
+            </label>
+        </div>
+
+    </form>
+
 </body>
 </html>
