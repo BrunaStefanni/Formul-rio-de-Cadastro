@@ -2,3 +2,42 @@
     margin: 0;
     padding: 0;
 }
+
+#titulo {
+    
+    font-family: Sans-serif;
+    margin-left: 7%;
+    color:rgb(46, 208, 59)
+}
+#subtitulo {
+    
+    font-family: Sans-serif;
+    margin-left: 10%;
+    color:rgb(9, 9, 9)
+}
+fieldset {
+    border: 0;
+   
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    align-items: center;
+}
+input, select, textarea, button {
+    border-radius: 5%;
+}
+.campo {
+    margin-bottom: 1em;
+    color: rgb(46, 208, 59);
+}
+.campo label {
+    display: block;
+    margin-bottom: 0.2em;
+    color: rgb(46, 208, 59);
+}
