@@ -71,3 +71,20 @@ main.container {
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(46, 208, 59);
 }
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    outline: none;
+    border-color: rgb(46, 208, 59);
+    box-shadow: 0 0 5px rgb(46, 208, 59);
+}
+.botao {
+    background-color: rgb(46, 208, 59);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(10, 10, 10);
+
+    font-size: 1em;
+    margin-bottom: 0.8em;
+}
