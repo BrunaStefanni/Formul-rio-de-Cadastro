@@ -70,6 +70,7 @@ main.container {
     background-color:rgba(46, 208, 59, 0.15) /* 15% de transparência */
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgb(46, 208, 59);
+    margin-top: 20px;
 }
 .campo input:focus, .campo select:focus, .campo textarea:focus {
     outline: none;
@@ -79,12 +80,22 @@ main.container {
 .botao {
     background-color: rgb(46, 208, 59);
     color: white;
-    border: none;
-    padding: 0.5em 1em;
+
     cursor: pointer;
     border-radius: 5px;
+    
     box-shadow: 2px 2px 5px rgb(10, 10, 10);
-
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 0.8em;
+    border: 0;
+    padding: 0.2em 0.6em;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover {
+    background-color: rgb(35, 62, 32);
+    box-shadow: 5px 5px 15px rgb(46, 208, 59);
 }
