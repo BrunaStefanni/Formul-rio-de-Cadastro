@@ -20,3 +20,7 @@ Estou criando esse projeto para praticar HTML, CSS, JavaScript e Git/GitHub. tal
 *Curso e semestre → contexto acadêmico*
 *Avaliação das disciplinas → percepção de desempenho*
 *Mensagem aberta → espaço para reflexão e comentários*
+
+## Imagens do processo
+
+![Imagem da primeira versão](fotos/imagem1.jpg)
