@@ -24,3 +24,4 @@ Estou criando esse projeto para praticar HTML, CSS, JavaScript e Git/GitHub. tal
 ## Imagens do processo
 
 ![Imagem da primeira versão](fotos/imagem1.jpg)
+![Imagem](fotos/imagen2.jpg)
